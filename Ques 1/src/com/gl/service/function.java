@@ -20,7 +20,7 @@ public class function {
 			} else if (value > 0 && value <= size) {
 				stack.push(value);
 			} else {
-				System.out.println("Floor size should be greater than Zero or smaller than " +size+"\n");
+				System.out.println("Floor size should be greater than Zero or smaller than " + size + "\n");
 				index--;
 			}
 		}
